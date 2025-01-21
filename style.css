@@ -1,0 +1,310 @@
+* {
+    font-family: 'Lato', sans-serif;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  .has-blue-bg {
+      background-color: #1481BA;
+      color: #ffffff;
+  }
+  
+  .has-grey-bg {
+      background-color: #333333;
+  }
+
+  .has-green{
+    color: #0C5882;
+  }
+  body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Prata&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+  
+  h1,h2,h3 {
+  font-family: 'Montserrat', sans-serif;
+      margin-bottom: 10px;
+  }
+  p,a,span {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+  }
+  
+  @media(max-width: 767px) {
+      p {
+          max-width: 90%;
+          margin: 0 auto;
+      }
+  }
+  
+  .a-menu {
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      transition: opacity 1s ease;
+      opacity: 0.8;
+  }
+  
+  .a-menu:hover {
+      opacity: 1;
+      color: #1c7c54 !important;
+      text-decoration: none;
+  }
+  
+  .section .container,
+  .hero .hero-body,
+  .hero .hero-head {
+      width: 1200px;
+      max-width: 100%;
+      margin: 0 auto;
+  }
+  
+  nav {
+      padding-top: 20px;
+      max-height: 50px;
+  }
+  
+  .paragraph {
+      width: 600px;
+      line-height: 1.5em;
+  }
+  
+  .burger {
+      position: absolute;
+      top: 0;
+      right: 0;
+  }
+  @media(min-width: 1024px) {
+      .hero-body {
+          background-image: url(../img/hero.png);
+          background-size: 30%;
+          background-position: 80% 50%;
+          background-repeat: no-repeat;
+      }
+      .hero-body p {
+          width: 600px;
+      }
+  }
+  
+  
+  .feature-img {
+    display: flex;
+    margin: 0 auto;
+  }
+  
+  #features .column {
+      display: flex;
+      justify-content: center;
+      flex-flow: column;
+      text-align: center;
+  }
+  
+  .column h3,
+  .column p {
+      align-self: flex-start;
+  }
+  
+  .pros {
+    text-align: left;
+  }
+  
+  .cons {
+    text-align: left;
+  }
+  
+  @media(max-width: 1024px) {
+      .reverse-row-order {
+          flex-direction: column-reverse;
+          display: flex;
+      }
+  }
+  
+  #contact {
+    text-align: left;
+  }
+  
+  #contact a {
+    color: #1c7c54;
+  }
+  
+  #contact p {
+      width: 600px;
+      margin: 0 auto;
+  }
+  
+  .title {
+    color: #ffffff;
+  }
+  
+  #footer {
+    padding:45px 0 20px;
+    font-size:15px;
+    line-height:24px;
+    color:#737373;
+  }
+  #footer hr{
+    border-top-color:#bbb;
+    opacity:0.5
+    margin:20px 0}
+  
+  #footer h6 {
+    color:#fff;
+    font-size:16px;
+    text-transform:uppercase;
+    letter-spacing:2px
+  }
+  
+  #footer a {
+    color:#737373;
+  }
+  #footer a:hover{
+    color:#d6f8d6;
+    text-decoration:none;
+  }
+  
+  #footer .column {
+    float: left;
+    text-align: left;
+  }
+  .footer-links{
+    padding-left:0;
+    list-style:none;
+  }
+  .footer-links li{
+    display:block
+  }
+  .footer-links a{
+    color:#d6f8d6;
+  }
+  .footer-links a:active,.footer-links a:focus,.footer-links a:hover{
+    color#D6f8d6;
+    text-decoration:none;
+  }
+  .footer-links.inline li{
+    display:inline-block;
+  }
+  
+  .copyright-text{
+    margin:0
+  }
+  @media (max-width:991px){
+    #footer [class^=col-]{
+      margin-bottom:30px
+    }
+  }
+  @media (max-width:767px){
+    #footer{
+      padding-bottom:0
+    }
+    #footer .copyright-text{
+      text-align:center
+    }
+  }
+  
+  /*slideshow for home page*/
+  /* Slideshow container */
+  .slideshow-container2 {
+    position: relative;
+    background: #f1f1f1f1;
+  }
+  
+  /* Slides */
+  .mySlides2 {
+    display: none;
+    padding: 80px;
+    text-align: center;
+  }
+  
+  /* Next & previous buttons */
+  .prev2, .next2 {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next2 {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev2:hover, .next2:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+  }
+  
+  /* Slideshow container */
+  .slideshow-container {
+    position: relative;
+    background: #f1f1f1f1;
+  }
+  
+  /* Slides */
+  .mySlides, .slide{
+    display: none;
+    padding: 80px;
+    text-align: center;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+  }
+  
+  .VO-Desc {
+    display: inline-block;
+  }
+  
+  .arrow {
+    border: solid black;
+    border-width: 0 25px 25px 0;
+    display: inline-block;
+    padding: 25px;
+  }
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  
+  .resize {
+      width: 800px;
+      height: auto;
+      align-items: center;
+  }
+  
